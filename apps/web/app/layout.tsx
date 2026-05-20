@@ -75,9 +75,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans overflow-x-hidden antialiased`}
       >
-        <script
-          dangerouslySetInnerHTML={{ __html: themeInitializationScript }}
-        />
+        <template data-theme-init={themeInitializationScript} />
         <Providers>{children}</Providers>
         <Analytics />
       </body>

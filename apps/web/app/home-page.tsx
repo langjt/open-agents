@@ -106,7 +106,7 @@ export function HomePage({ hasSessionCookie, lastRepo }: HomePageProps) {
 
       <main className="flex flex-1 flex-col items-center px-6 pt-8 sm:pt-16">
         <h1 className="mb-8 text-3xl font-light text-foreground">
-          What should we ship next?
+          Hello World
         </h1>
 
         <SessionStarter
