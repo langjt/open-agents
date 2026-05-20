@@ -6,6 +6,10 @@ Open Agents is an open-source reference app for building and running background 
 
 The repo is meant to be forked and adapted, not treated as a black box.
 
+## Project introduction
+
+Open Agents 面向希望构建“可持续运行、可恢复、可操作代码仓库”的 AI 编码产品团队。它把对话界面、工作流驱动的 Agent、隔离沙箱执行环境与 GitHub 集成组合在一起，提供一套从用户提出需求到生成代码改动、验证结果并回写仓库的完整参考实现。你可以直接部署它作为自己的 Agent 产品基础，也可以把其中的工作流编排、沙箱工具调用、鉴权与仓库集成方案拆分出来用于现有系统。
+
 ## What it is
 
 Open Agents is a three-layer system:

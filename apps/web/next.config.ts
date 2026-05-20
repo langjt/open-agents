@@ -3,6 +3,7 @@ import { withBotId } from "botid/next/config";
 import { withWorkflow } from "workflow/next";
 
 const nextConfig: NextConfig = {
+  allowedDevOrigins: ["sb-5d8hwgqh9n18.vercel.run"],
   images: {
     remotePatterns: [
       {
